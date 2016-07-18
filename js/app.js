@@ -1,3 +1,29 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @Rinku-kumar
+
+1
+0
+
+    1
+
+Rinku-kumar/BSEGIN forked from kryptosmobile/BSEGIN
+Code
+Pull requests 0
+Wiki
+Pulse
+Graphs
+Settings
+BSEGIN/js/app.js
+120f8c5 28 minutes ago
+CEAI initial
+1256 lines (1123 sloc) 49.5 KB
 'use strict';
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
@@ -76,7 +102,7 @@ document.addEventListener('deviceready',onDeviceReady, false);
 
 var MyCampusApp = {
     config : {
-        tenant : "Kryptos",
+        tenant : BSEGIN,
         serverUrl : "https://kryptos.kryptosmobile.com",
         tenantFolder : function(device, tenant) {
             if(device.platform == 'Android') {
@@ -610,7 +636,6 @@ var MyCampusApp = {
         var width = $(window).width() > 780 ? $(window).width() - 280 : $(window).width();
         var cols =  Math.floor(width / iconwidth);
         var rows = Math.floor(($(window).height() - 200) / iconwidth);
-
         for (_i = 0, _len = allIcons.length; _i < _len; _i++) {
             icon = allIcons[_i];
             var markup = '<li><a href="' + icon.url + '"><img src="' + icon.logourl + '" class="icon"></img></a>' +
@@ -618,7 +643,6 @@ var MyCampusApp = {
                 + icon.title + '</div></li>';
             homedata.append(markup);
         }
-
         //AK added for promptumenu
         $("#homedata").promptumenu({
             width:(width - 24),
@@ -629,7 +653,6 @@ var MyCampusApp = {
             pages: true
         });
         //End AK
-
          Commenting for icon issue during update manager - end (Nick)*/
 
         /*
@@ -1254,3 +1277,8 @@ Stage = (function() {
 
 
 MyCampusApp.init();
+
+    Contact GitHub API Training Shop Blog About 
+
+    © 2016 GitHub, Inc. Terms Privacy Security Status Help 
+

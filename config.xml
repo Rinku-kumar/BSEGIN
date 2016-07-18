@@ -2,8 +2,8 @@
     <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.kryptosmobile.lingaya" version   = "1.0.0">
-        <name>LINGAYA'S</name>
-        <description>LINGAYA</description>
+        <name>BSE Group of Institutions</name>
+        <description>BSE Group of Institutions</description>
         <author href="http://kryptosmobile.com" email="info@kryptosmobile.com">Kryptos Mobile Team</author>
         <feature name="http://api.phonegap.com/1.0/device" />
         <!--<preference name="phonegap-version" value="3.7.0"/>-->
@@ -112,6 +112,7 @@
         <!--<gap:plugin name="de.appplant.cordova.plugin.local-notification" />-->
 
         <!-- push plugin for ios -->
+        <!--
         <gap:plugin name="com.medlei.pushplugin" version="0.1.2" >
             <param name="APP_ID" value="cj7A96x4ZQzdoAfsRNxspFQFTD400Bueq27dqrzO" />
             <param name="CLIENT_KEY" value="lwd2TvlTLc5QPgrEFPHjZQYcVkNs8Hd9gnBJjdfU" />
